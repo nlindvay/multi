@@ -1,0 +1,52 @@
+# Ignore Visual Studio files
+.vs/
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+*.vscode
+
+# Ignore build logs and cache files
+*.log
+*.cache
+
+# Ignore Resharper files
+_ReSharper*/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore test results
+TestResults/
+
+# Ignore build artifacts
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+
+# Ignore publish profiles
+*.pubxml
+*.publishsettings
+
+# Ignore Roslyn analyzer cache
+RoslynAnalyzers/
+
+# Ignore .NET Core build output
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.deps.json
+*.runtimeconfig.json

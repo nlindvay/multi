@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\lib\multi.lib.common\multi.lib.common.csproj" />
+    <ProjectReference Include="..\..\..\src\lib\multi.lib.shipperino\multi.lib.shipperino.csproj" />
+    <ProjectReference Include="..\..\..\src\lib\multi.lib.shipco\multi.lib.shipco.csproj" />
+    <ProjectReference Include="..\..\..\src\store\multi.store.client\multi.store.client.csproj" />
+    <ProjectReference Include="..\..\..\src\store\multi.store.shipment\multi.store.shipment.csproj" />
+  </ItemGroup>
+
+</Project>
